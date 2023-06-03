@@ -1,0 +1,53 @@
+.App {
+  /* To align everything in the center */
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #4a5568;
+}
+
+form {
+  margin: 20px auto; /* To center the form */
+  display: flex; /* To arrange inputs in a row */
+  justify-content: center; /* To center the items in the row */
+  width: 80%; /* Restrict form width */
+  flex-wrap: wrap; /* Allow elements to wrap into next line if needed */
+}
+
+form input {
+  margin: 10px; /* Space around each input */
+  flex: 1; /* Allow inputs to take up equal width */
+}
+
+div.car-item {
+  /* Box styles for each car item */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Restrict car item width */
+  padding: 20px;
+  margin: 10px auto; /* To center the car items */
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+}
+
+div h2, div p {
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #48bb78;
+  color: white;
+  cursor: pointer;
+  margin: 5px; /* Add a little margin to buttons */
+}
+
+button:hover {
+  background-color: #38a169;
+}

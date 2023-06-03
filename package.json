@@ -1,0 +1,18 @@
+{
+  "name": "car-api",
+  "version": "1.0.0",
+  "description": "RESTful API for managing a list of cars",
+  "scripts": {
+    "start": "npm run start-react && node index.js",
+    "start-react": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
